@@ -4,6 +4,9 @@
 .App {
   font-weight: 600;
 }
+body {
+  background-color: white;
+}
 .navbar {
   background-color: #00b2b9;
 }
