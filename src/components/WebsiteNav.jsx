@@ -2,7 +2,6 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { Link } from 'react-router-dom';
 
 const WebsiteNav = () =>
 {
@@ -15,7 +14,7 @@ const WebsiteNav = () =>
           <Nav className='me-auto' >
           </Nav>
           <Nav>
-            <Nav.Link as={ Link } to={ "/home" } className='mx-2' href="/">Home</Nav.Link>
+            <Nav.Link className='mx-2' href="/home">Home</Nav.Link>
             <Nav.Link className='mx-2 text-link' href="/products">Products</Nav.Link>
             <Nav.Link className='mx-2 text-link' href="/contact">Contact</Nav.Link>
           </Nav>
