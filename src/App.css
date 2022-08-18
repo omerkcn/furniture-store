@@ -7,6 +7,9 @@
 body {
   background-color: white;
 }
+.mt-6 {
+  margin-top: 8rem !important;
+}
 .navbar {
   background-color: #00b2b9;
 }
@@ -24,6 +27,35 @@ body {
 }
 .btn {
   border-radius: 50%;
+}
+.service-title {
+  color: black;
+  text-align: center;
+}
+.service-text {
+  color: lightslategray;
+  text-align: center;
+}
+.icon-service {
+  color: #00b2b9;
+}
+.icon-refund {
+  color: red;
+}
+.product-brand {
+  color: #00b2b9;
+}
+.product-title {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+.product-text {
+  color: lightslategray;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0 10px 30px 10px;
 }
 
 @media only screen and (max-width: 450px) {

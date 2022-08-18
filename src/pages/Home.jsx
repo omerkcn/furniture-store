@@ -4,6 +4,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import ProductCard from '../components/ProductCard';
+import Services from '../components/Services';
+import Lamp from '../components/Lamp';
+import OurProducts from '../components/OurProducts';
+import Footer from "../components/Footer";
 
 
 
@@ -35,6 +39,10 @@ const Home = () =>
       </div >
 
       <ProductCard />
+      <Services />
+      <OurProducts />
+      <Footer />
+
     </>
 
 
