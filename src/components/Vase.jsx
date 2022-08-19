@@ -11,13 +11,13 @@ const Vase = () =>
 {
   return (
     <div className="row mt-6">
-      <div className="col-md-4 text-black d-flex flex-column align-items-center justify-content-center">
+      <div className="col-md-4 text-black d-flex flex-column align-items-center justify-content-center  order-last order-md-1">
         <h1 className="product-brand">Furni</h1>
         <h3 className='product-title'>Vase</h3>
         <p className='product-text'>We have exotic vases for your flowers  </p>
         <Button className='rounded-pill fw-bold' variant='light'>Go to Vases</Button>
       </div>
-      <div className="col-md-8 rounded" >
+      <div className="col-md-8 rounded order-first order-md-2" >
         <ImageCarousel firstImage={ Vase1 } secondImage={ Vase2 } thirdImage={ Vase3 } />
       </div>
     </div>

@@ -8,11 +8,12 @@ const Services = () =>
 {
   return (
     <div className="container">
-      <div className="row mt-6 ">
+      <div className="row  mt-6  ">
 
-        <div className="row">
+        <div className="row mx-0">
           <div className="col-md-3 d-flex flex-column align-items-center">
-            <img className="icon-service" src={ ServiceLogo } alt="" width={ 50 } color="#00b2b9" />
+            <img className="icon-service" src={ ServiceLogo } alt="" width={ 50 } color="#6667AB
+" />
             <h3 className="service-title">Fast & Free Shipping</h3>
             <p className="service-text">Sign up to premier delivery USA for unlimited free shipping.</p>
 

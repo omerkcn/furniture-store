@@ -10,16 +10,20 @@ body {
 .mt-6 {
   margin-top: 8rem !important;
 }
+.mx-6 {
+  margin-right: 14rem !important;
+  margin-left: 8rem !important;
+}
 .navbar {
-  background-color: #00b2b9;
+  background-color: #6667ab;
 }
 .landing {
-  background-color: #00b2b9;
+  background-color: #6667ab;
   height: 40vh;
 }
 
 .responsive-furniture {
-  width: 50;
+  width: 700px;
   height: auto;
   position: absolute;
   top: 250px;
@@ -37,13 +41,25 @@ body {
   text-align: center;
 }
 .icon-service {
-  color: #00b2b9;
+  color: #6667ab;
 }
 .icon-refund {
   color: red;
 }
+.product-card {
+  border: 1px solid gainsboro;
+  text-decoration: none;
+  cursor: pointer;
+}
+.product-card:hover > .product-button {
+  background: #6667ab;
+}
+
+.product-image {
+  width: 100%;
+}
 .product-brand {
-  color: #00b2b9;
+  color: #a799fd;
 }
 .product-title {
   color: white;
@@ -56,6 +72,74 @@ body {
   font-size: 1.2rem;
   text-align: center;
   margin: 0 10px 30px 10px;
+}
+.product-button {
+  width: 100%;
+}
+
+.sofa-title {
+  color: black;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.sofa-text {
+  color: black;
+  font-size: 1.2rem;
+}
+.form-labels {
+  color: black;
+  display: block;
+  margin-bottom: 0;
+}
+.form-input {
+  display: block;
+  outline: none;
+  color: black;
+  background: none;
+  border: none;
+  border-bottom: 0.5px solid gainsboro;
+  outline: #6667ab;
+}
+.form-input:focus {
+  border-bottom: 2px solid #6667ab;
+}
+.contact-container {
+  width: 100%;
+}
+.contact-form {
+  width: 100%;
+  height: 100vh;
+}
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 39vh;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 100%;
+  height: 100%;
+}
+#gmap_canvas {
+  width: 100%;
+  height: 100%;
+}
+.map {
+  background-color: rgb(233, 233, 233);
+}
+.contact-title {
+  color: #6667ab;
+  text-align: center;
+}
+.contact-text {
+  color: black;
+  font-size: 1.4rem;
+}
+.contact-icon {
+  color: #6667ab;
 }
 
 @media only screen and (max-width: 450px) {
@@ -70,12 +154,12 @@ body {
     max-width: 100%;
     height: auto;
     position: absolute;
-    top: 220px;
+    top: 260px;
     right: 10px;
   }
 
   .landing {
-    background-color: #00b2b9;
+    background-color: #6667ab;
     height: 45vh;
   }
 
@@ -88,6 +172,21 @@ body {
   }
   .navbar-nav a {
     z-index: 2;
+    color: black;
+  }
+  .dropdown-menu.show {
+    position: absolute;
+    left: 10rem;
+  }
+  .form-group {
+    flex-direction: column;
+  }
+
+  .navbar-nav .nav-link.active,
+  .navbar-nav .show > .nav-link {
+    color: black;
+  }
+  #basic-nav-dropdown {
     color: black;
   }
 }

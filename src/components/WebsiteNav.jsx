@@ -6,6 +6,8 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const WebsiteNav = () =>
 {
+
+
   return (
     <Navbar collapseOnSelect expand="sm" variant="dark" sticky='top'>
       <Container>
@@ -16,17 +18,20 @@ const WebsiteNav = () =>
           </Nav>
           <Nav>
             <Nav.Link className='mx-2' href="/">Home</Nav.Link>
-            <NavDropdown title="Products" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#Salon Set"><i class="fa-solid fa-couch me-2" style={ { color: '#00b2b9' } }></i>Salon Set</NavDropdown.Item>
+
+            <NavDropdown title="Products" id="basic-nav-dropdown" className='mx-2'>
+              <NavDropdown.Item href="/salonsets"><i className="fa-solid fa-couch me-2" style={ {
+                color: '#6667AB'
+              } }></i>Salon Set</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#lamps">
+              <NavDropdown.Item href="/lamps">
                 <i className="fa-solid fa-lightbulb me-2" style={ { color: 'yellowgreen' } }></i> Lamps
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#Vase"><i class="fa-solid fa-flask-vial me-2" style={ { color: '#633d04' } }></i>Vase</NavDropdown.Item>
-
-
+              <NavDropdown.Item href="/Vases"><i className="fa-solid fa-flask-vial me-2" style={ { color: '#633d04' } }></i>Vase</NavDropdown.Item>
             </NavDropdown>
+
+
             <Nav.Link className='mx-2 text-link' href="/contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>

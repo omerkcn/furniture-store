@@ -10,13 +10,13 @@ const Sofas = () =>
 {
   return (
     <div className="row">
-      <div className="col-md-4 text-black d-flex flex-column align-items-center justify-content-center">
+      <div className="col-md-4 text-black d-flex flex-column align-items-center justify-content-center order-last order-md-1">
         <h1 className="product-brand">Furni</h1>
         <h3 className='product-title'>Sitting Group</h3>
         <p className='product-text'>We are providing wide range of salon sets and you can use anywhere that you want </p>
-        <Button className='rounded-pill fw-bold' variant='light'>Go to Lamps</Button>
+        <Button className='rounded-pill fw-bold' variant='light'>Go to Sofas</Button>
       </div>
-      <div className="col-md-8 rounded" >
+      <div className="col-md-8 rounded order-first order-md-2" >
         <ImageCarousel firstImage={ Sofa1 } secondImage={ Sofa2 } thirdImage={ Sofa3 } />
       </div>
     </div>

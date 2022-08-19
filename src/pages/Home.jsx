@@ -8,10 +8,11 @@ import Services from '../components/Services';
 import Lamp from '../components/Lamp';
 import OurProducts from '../components/OurProducts';
 import Footer from "../components/Footer";
+import Furniture from "../images/furniture.png";
 
 
 
-
+//https://www.freepnglogos.com/uploads/furniture-png/furniture-how-share-tiny-apartment-with-your-significant-other-22.png
 const Home = () =>
 {
   return (
@@ -31,7 +32,7 @@ const Home = () =>
             </Col>
           </Row>
           <div>
-            <img className='responsive-furniture' src="https://www.freepnglogos.com/uploads/furniture-png/furniture-how-share-tiny-apartment-with-your-significant-other-22.png" alt="" />
+            <img className='responsive-furniture' src={ Furniture } alt="" />
 
           </div>
         </Container>

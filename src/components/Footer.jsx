@@ -3,11 +3,11 @@ import React from 'react'
 const Footer = () =>
 {
   return (
-    <div className=" ">
+    <div className="  ">
 
       <footer
         className="text-center text-lg-start text-white "
-        style={ { backgroundColor: '#02858a' } }
+        style={ { backgroundColor: '#6667AB' } }
       >
 
         <div className="container p-4 pb-0">
