@@ -16,7 +16,7 @@ const Lamp = () =>
         <h1 className="product-brand">Furni</h1>
         <h3 className='product-title'>Quality Lamps</h3>
         <p className='product-text'>We have both traditional and modern lamps.</p>
-        <Button className='rounded-pill fw-bold' variant='light'>Go to Lamps</Button>
+        <Button className='rounded-pill fw-bold' variant='light' href='/lamps'>Go to Lamps</Button>
       </div>
     </div>
 

@@ -1,18 +1,27 @@
 * {
   color: white;
 }
+html,
+body {
+  max-width: 100%;
+  background-color: white;
+  overflow-x: hidden;
+}
+
 .App {
   font-weight: 600;
 }
-body {
-  background-color: white;
-}
+
 .mt-6 {
   margin-top: 8rem !important;
 }
 .mx-6 {
   margin-right: 14rem !important;
   margin-left: 8rem !important;
+}
+.mx-7 {
+  margin-left: 6rem !important;
+  margin-right: 6rem !important;
 }
 .navbar {
   background-color: #6667ab;
@@ -21,12 +30,15 @@ body {
   background-color: #6667ab;
   height: 40vh;
 }
-
+.breadcrumb-text a {
+  text-decoration: none;
+  color: lightslategray;
+}
 .responsive-furniture {
   width: 700px;
   height: auto;
   position: absolute;
-  top: 250px;
+  top: 280px;
   right: 300px;
 }
 .btn {
@@ -46,13 +58,37 @@ body {
 .icon-refund {
   color: red;
 }
+#salon-container {
+  width: 100vw;
+}
+#product-header {
+  margin: 0px 100px 0px 100px;
+}
+.header-image {
+  width: 100%;
+  height: auto;
+}
 .product-card {
-  border: 1px solid gainsboro;
+  border: 1px solid rgb(185, 185, 185);
+  width: 100%;
   text-decoration: none;
   cursor: pointer;
+  overflow: hidden;
+  border-radius: 10px;
+}
+#product-card {
+  border: 1px solid rgb(185, 185, 185);
+  width: 100%;
+  text-decoration: none;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 10px;
 }
 .product-card:hover > .product-button {
   background: #6667ab;
+  transition: ease-in-out 1000 color;
+  color: white;
+  font-weight: bold;
 }
 
 .product-image {
@@ -79,13 +115,15 @@ body {
 
 .sofa-title {
   color: black;
-  font-size: 3rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 
 .sofa-text {
-  color: black;
-  font-size: 1.2rem;
+  color: #6667ab;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
 }
 .form-labels {
   color: black;
@@ -143,6 +181,9 @@ body {
 }
 
 @media only screen and (max-width: 450px) {
+  body {
+    overflow-x: hidden;
+  }
   #landing-title {
     font-size: 24px;
   }
@@ -154,7 +195,7 @@ body {
     max-width: 100%;
     height: auto;
     position: absolute;
-    top: 260px;
+    top: 280px;
     right: 10px;
   }
 
@@ -188,5 +229,22 @@ body {
   }
   #basic-nav-dropdown {
     color: black;
+  }
+
+  .header-image {
+    object-fit: cover;
+    height: 30vh;
+    overflow: hidden;
+  }
+  #product-header {
+    margin: 0;
+  }
+  .product-card {
+    width: 350px !important;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  .mx-7 {
+    margin: 0 1rem 0 1rem !important;
   }
 }

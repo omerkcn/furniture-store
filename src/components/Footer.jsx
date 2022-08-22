@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () =>
 {
   return (
-    <div className="  ">
+    <>
 
       <footer
         className="text-center text-lg-start text-white "
@@ -33,16 +33,16 @@ const Footer = () =>
               <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                 <h6 className="text-uppercase mb-4 font-weight-bold">Products</h6>
                 <p>
-                  <a className="text-white">Salon Sets</a>
+                  <a className="text-white" href='/salonsets'>Salon Sets</a>
                 </p>
                 <p>
-                  <a className="text-white">Lamps</a>
+                  <a className="text-white" href='/lamps'>Lamps</a>
                 </p>
                 <p>
-                  <a className="text-white">Vases</a>
+                  <a className="text-white" href='/vases'>Vases</a>
                 </p>
                 <p>
-                  <a className="text-white">Chairs</a>
+                  <a className="text-white" href='/chairs'>Chairs</a>
                 </p>
               </div>
 
@@ -55,16 +55,16 @@ const Footer = () =>
                   Useful links
                 </h6>
                 <p>
-                  <a className="text-white">Your Account</a>
+                  <a className="text-white" href=''>Your Account</a>
                 </p>
                 <p>
-                  <a className="text-white">Become an Affiliate</a>
+                  <a className="text-white" href=''>Become an Affiliate</a>
                 </p>
                 <p>
-                  <a className="text-white">Shipping Rates</a>
+                  <a className="text-white" href=''>Shipping Rates</a>
                 </p>
                 <p>
-                  <a className="text-white">Help</a>
+                  <a className="text-white" href=''>Help</a>
                 </p>
               </div>
 
@@ -96,7 +96,7 @@ const Footer = () =>
           </section>
         </div>
       </footer>
-    </div>
+    </>
   )
 }
 

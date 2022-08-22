@@ -28,7 +28,7 @@ const WebsiteNav = () =>
                 <i className="fa-solid fa-lightbulb me-2" style={ { color: 'yellowgreen' } }></i> Lamps
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/Vases"><i className="fa-solid fa-flask-vial me-2" style={ { color: '#633d04' } }></i>Vase</NavDropdown.Item>
+              <NavDropdown.Item href="/vases"><i className="fa-solid fa-flask-vial me-2" style={ { color: '#633d04' } }></i>Vase</NavDropdown.Item>
             </NavDropdown>
 
 

@@ -15,7 +15,7 @@ const Vase = () =>
         <h1 className="product-brand">Furni</h1>
         <h3 className='product-title'>Vase</h3>
         <p className='product-text'>We have exotic vases for your flowers  </p>
-        <Button className='rounded-pill fw-bold' variant='light'>Go to Vases</Button>
+        <Button className='rounded-pill fw-bold' variant='light' href='/vases'>Go to Vases</Button>
       </div>
       <div className="col-md-8 rounded order-first order-md-2" >
         <ImageCarousel firstImage={ Vase1 } secondImage={ Vase2 } thirdImage={ Vase3 } />

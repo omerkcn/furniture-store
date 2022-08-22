@@ -8,7 +8,7 @@ import Products from "./pages/Products";
 import About from "./pages/About";
 import SalonSets from "./pages/SalonSets";
 import Lamps from "./pages/Lamps";
-import Vases from "./pages/SalonSets";
+import Vases from "./pages/Vases";
 
 function App() {
   return (
